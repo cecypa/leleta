@@ -1,5 +1,5 @@
 /**
-* Template Name: DevFolio - v3.0.0
+* Template Name: DevFolio - v2.3.0
 * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -19,17 +19,16 @@ h3,
 h4,
 h5,
 h6 {
-  color: #6A0482 ;
+  color: #1e1e1e;
 }
 
 a {
   color: #1e1e1e;
-  text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover {
-  color: #B80CE1;
+  color: #B738DD;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -39,8 +38,7 @@ a:hover {
 }
 
 .color-a {
-  text-decoration: none;
-  color: #B80CE1;
+  color: #B738DD;
 }
 
 .color-d {
@@ -48,7 +46,6 @@ a:hover {
 }
 
 .color-text-a {
-  text-decoration: none;
   color: #4e4e4e;
 }
 
@@ -57,7 +54,6 @@ a:hover {
 }
 
 .box-shadow-a, .button:hover {
-  text-decoration: none;
   box-shadow: 0 0 0 4px #cde1f8;
 }
 
@@ -94,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #B80CE1;
+  background-color: #B738DD;
 }
 
 .overlay-mf {
@@ -149,21 +145,19 @@ a:hover {
 }
 
 .title-a {
-  text-decoration: none;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .subtitle-a {
-  text-decoration: none;
   color: #4e4e4e;
 }
 
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #B80CE1;
+  background-color: #B738DD;
   margin: 0 auto;
 }
 
@@ -181,15 +175,9 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #B80CE1;
+  background-color: #B738DD;
   width: 100px;
   bottom: -12px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: auto;
-  }
 }
 
 /*------/ Box /------*/
@@ -228,12 +216,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #B80CE1 ;
+  box-shadow: 0 0 0 3px #B738DD;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -251,7 +239,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #B80CE1 ;
+  color: #B738DD;
   margin-right: 10px;
 }
 
@@ -264,7 +252,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #B80CE1 ;
+  box-shadow: 0 0 0 10px #B738DD;
   display: block;
 }
 
@@ -309,7 +297,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -327,7 +315,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #B80CE1 ;
+  background: #B738DD;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -370,7 +358,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #B80CE1 ;
+  border-top: 6px solid #B738DD;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -424,8 +412,7 @@ a:hover {
 }
 
 .button-a {
-  text-decoration: none;
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -536,26 +523,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #B80CE1 ;
+  color: #B738DD;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #B80CE1 ;
+  color: #B738DD;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #B80CE1 ;
+  color: #B738DD;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #B80CE1 ;
+  color: #B738DD;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -586,13 +573,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -717,7 +704,7 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #B80CE1 ;
+  color: #B738DD;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -760,7 +747,7 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #dc9ded;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -768,7 +755,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
 }
 
 /*--------------------------------------------------------------
@@ -784,7 +771,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -872,17 +859,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #B80CE1 ;
+  color: #B738DD;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #B80CE1 ;
+  color: #B738DD;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #B80CE1 ;
+  color: #B738DD;
 }
 
 .work-content .w-like .num-like {
@@ -924,7 +911,7 @@ a:hover {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0078ff !important;
+  background-color: #B738DD !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1011,7 +998,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #B80CE1 ;
+  color: #B738DD;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -1109,12 +1096,12 @@ a:hover {
   font-size: 14px;
 }
 
-.php-email-form input:focus, .php-email-form textarea:focus {
-  border-color: #0078ff;
+.php-email-form input::focus, .php-email-form textarea::focus {
+  background-color: #B738DD;
 }
 
 .php-email-form input {
-  padding: 10px 15px;
+  padding: 20px 15px;
 }
 
 .php-email-form textarea {
@@ -1123,7 +1110,7 @@ a:hover {
 }
 
 .php-email-form button[type="submit"] {
-  background: #0078ff;
+  background: #B738DD;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1180,7 +1167,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #B738DD;
   border-radius: 4px;
 }
 
@@ -1248,7 +1235,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #B738DD;
   margin-top: 1rem;
 }
 
@@ -1258,7 +1245,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #0078ff;
+  color: #B738DD;
 }
 
 .blog-wrapper .post-meta ul span {
@@ -1266,7 +1253,7 @@ a:hover {
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
+  border-left: 4px solid #B738DD;
   padding: 18px;
   font-style: italic;
 }
@@ -1303,7 +1290,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color:#B738DD;
 }
 
 .box-comments .list-comments span {
@@ -1319,7 +1306,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #B80CE1 ;
+  border-left: 5px solid #B738DD;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1336,7 +1323,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #B80CE1 ;
+  background-color: #B738DD;
   top: 20px;
 }
 
@@ -1347,8 +1334,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #B738DD;
+  border-color: #B738DD;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1356,7 +1343,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #B738DD;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -1373,7 +1360,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #72058C ;
+  background: #7d069e;
 }
 
 footer .copyright {
